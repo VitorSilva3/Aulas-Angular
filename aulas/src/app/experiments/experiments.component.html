@@ -1,2 +1,4 @@
 <input type="text" (input)="changeName($event)" value={{name}} [style.background]="name"><br/>
 <p>Olá! {{name}}</p>
+
+<app-exp2 [nomeRecebido] = 'name'></app-exp2>
