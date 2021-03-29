@@ -1,3 +1,9 @@
 <input [(ngModel)]="num1">
 <input [(ngModel)]="num2">
 <h3>{{+num1 ++ num2}}</h3>
+
+<hr>
+<!-- (input)="conta($event)" -->
+<input type={{tipoInput}}  (keypress)="trocar($event)">
+<p>{{informacao}}</p>
+<h3>{{resultado}}</h3>

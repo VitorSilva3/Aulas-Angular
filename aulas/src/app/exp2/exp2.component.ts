@@ -13,4 +13,7 @@ export class Exp2Component implements OnInit {
   ngOnInit(): void {
   }
 
+  recebi(ev){
+    console.log(ev);
+  }
 }

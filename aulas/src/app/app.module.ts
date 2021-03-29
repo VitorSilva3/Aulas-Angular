@@ -13,6 +13,8 @@ import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { Exp2Component } from './exp2/exp2.component';
 import { FichaAnimalComponent } from './ficha-animal/ficha-animal.component';
 import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
+import { Filhodoexp2Component } from './exp2/filhodoexp2/filhodoexp2.component';
+import { Filhodoexp3Component } from './exp2/filhodoexp3/filhodoexp3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
     EvAndRefComponent,
     Exp2Component,
     FichaAnimalComponent,
-    EscolheAnimalComponent
+    EscolheAnimalComponent,
+    Filhodoexp2Component,
+    Filhodoexp3Component
   ],
   imports: [
     BrowserModule,
