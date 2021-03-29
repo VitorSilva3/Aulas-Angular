@@ -13,6 +13,7 @@ export class ExperimentsComponent implements OnInit {
   }
 
   name : string = "Vitor";
+  arrayAnimais : Array<string> = ["cao","gato", "papagaio", "texugo"];
 
   changeName(event){
     this.name = event.target.value;

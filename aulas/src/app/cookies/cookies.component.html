@@ -1,0 +1,5 @@
+<!--  -->
+<div [ngStyle]="{'display': aceitarCookie == true ? 'none' : 'flex'}" class="container-cookies">
+  <p>Aceite os Cookies, é uma ordem!</p>
+  <button #ctn class="btn btn-danger" (click)="aceitarCookies(ctn)">Aceitar</button>
+</div>

@@ -1,7 +1,16 @@
 <input type="text" (input)="changeName($event)" value={{name}} [style.background]="name"><br/>
 <p>Olá! {{name}}</p>
 
+<h1 *ngIf="name == 'Vitor'">OH RAIOS</h1>
+
 <app-exp2 [nomeRecebido] = 'name'></app-exp2>
 
+<hr>
 
-<button class="btn btn-success">Este</button>
+<div *ngFor="let animal of arrayAnimais; let i = index">
+  <h4 [ngStyle]="{'color': i % 2 == 0 ? 'green' : 'red' }">{{animal}}</h4>
+</div>
+
+<hr>
+
+<button class="btn" [ngClass]="{'btn-warning': name == 'Vitor'}">Este</button>
