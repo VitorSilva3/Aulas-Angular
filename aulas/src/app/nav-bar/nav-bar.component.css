@@ -1,3 +1,28 @@
 .active {
   color: aqua;
+  background-color: darkgoldenrod;
+}
+
+nav {
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-bottom: 2vh;
+  background-color: chartreuse;
+}
+
+ul {
+  margin: 0;
+}
+
+li{
+  display: inline;
+  margin-right: 2vw;
+}
+
+a {
+  background-color: coral;
+  padding: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }

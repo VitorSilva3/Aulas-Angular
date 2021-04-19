@@ -1,6 +1,11 @@
 <select [(ngModel)]="name">
-  <option>Cão</option>
-  <option>Gato</option>
+  <option *ngFor="let especies of especies">{{especies}}</option>
+ <!-- <option>Cão</option>
+  <option>Gato</option> -->
 </select>
 
 <app-escolhe-animal [especie] = "name"></app-escolhe-animal>
+
+<div *ngFor="let animalAtual of especie">
+  <app-animalreader [animalSerLido] = 'animalAtual'></app-animalreader>
+</div>

@@ -12,7 +12,7 @@ export class CookiesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  aceitarCookie : boolean;
+  aceitarCookie : boolean = localStorage.getItem("cookie") == "1" ? true : false;
 
   aceitarCookies(ctn:HTMLElement) {
     localStorage.setItem("cookie","1");
@@ -20,7 +20,4 @@ export class CookiesComponent implements OnInit {
     this.aceitarCookie = true;
   }
 
-  lerCookies(){
-    this.aceitarCookie = localStorage.getItem("cookie") == "1" ? true : false;
-  }
 }

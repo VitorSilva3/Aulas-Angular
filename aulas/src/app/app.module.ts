@@ -16,6 +16,7 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
 import { Filhodoexp2Component } from './exp2/filhodoexp2/filhodoexp2.component';
 import { Filhodoexp3Component } from './exp2/filhodoexp3/filhodoexp3.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { AnimalreaderComponent } from './ficha-animal/animalreader/animalreader.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CookiesComponent } from './cookies/cookies.component';
     EscolheAnimalComponent,
     Filhodoexp2Component,
     Filhodoexp3Component,
-    CookiesComponent
+    CookiesComponent,
+    AnimalreaderComponent
   ],
   imports: [
     BrowserModule,

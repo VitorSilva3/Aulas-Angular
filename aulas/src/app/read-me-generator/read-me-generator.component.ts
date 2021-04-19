@@ -12,4 +12,8 @@ export class ReadMeGeneratorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  alerta() {
+    alert("Não Sei!");
+  }
+
 }

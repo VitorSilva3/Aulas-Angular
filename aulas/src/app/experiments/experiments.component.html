@@ -1,4 +1,5 @@
-<input type="text" (input)="changeName($event)" value={{name}} [style.background]="name"><br/>
+<!-- [style.background]="name" -->
+<input type="text" (input)="changeName($event)" value={{name}} [style.background]="defenicao.corDeFundo"><br/>
 <p>Olá! {{name}}</p>
 
 <h1 *ngIf="name == 'Vitor'">OH RAIOS</h1>

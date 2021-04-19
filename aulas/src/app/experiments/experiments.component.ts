@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Preferencias } from '../classes/preferencias';
 
 @Component({
   selector: 'app-experiments',
@@ -11,7 +12,7 @@ export class ExperimentsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  defenicao : Preferencias = new Preferencias("blue", "red");
   name : string = "Vitor";
   arrayAnimais : Array<string> = ["cao","gato", "papagaio", "texugo"];
 

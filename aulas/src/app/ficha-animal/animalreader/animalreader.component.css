@@ -1,0 +1,26 @@
+.principal{
+  background-color: darkgray;
+  width: 50vw;
+  display: flex;
+  margin: 5vh;
+}
+
+.texto{
+  background-color: darkkhaki;
+  width: 50%;
+  align-items: left;
+}
+
+.texto h5, p {
+  display: inline-block;
+  width: 50%;
+}
+
+.imagem{
+  background-color: darkorchid;
+  width: 50%;
+  align-items: right;
+}
+.imagem img {
+  width: 100%;
+}
